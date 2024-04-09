@@ -6,7 +6,7 @@ export default function Form() {
     <html>
     <style>
       html, body {
-        background-color: #32075B;
+        background-color: #fff;
       }
     </style>
     <body>
@@ -32,9 +32,8 @@ const styles = StyleSheet.create({
     flex: 2,
     justifyContent: "flex-start",
     width: "100%",
-    backgroundColor: "#32075B",
+    backgroundColor: "#fff",
     paddingHorizontal: 10,
-    paddingTop: 50
   },
   heading: {
     fontSize: 34,

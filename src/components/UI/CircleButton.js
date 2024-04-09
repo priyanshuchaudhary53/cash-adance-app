@@ -7,9 +7,9 @@ export default function ({ title, onPress, radius, textStyle }) {
       <Pressable onPress={onPress} style={{ height: radius, width: radius }}>
         {({ pressed }) => (
           <LinearGradient
-            colors={pressed ? ["#2b4ab5", "#2f51ca"] : ["#6a11cb", "#2575fc"]}
-            start={[0, 1]}
-            end={[1, 1]}
+            colors={ ["#053225", "#7EC270"]}
+            start={pressed ? [-0.1, 1] : [-0.2, 1]}
+            end={[1.2, 1]}
             style={styles.gradient}
           >
             <Text style={[textStyle, styles.text]}>{title}</Text>

@@ -22,7 +22,10 @@ export default function App() {
           name="Form"
           component={Form}
           options={{
-            headerShown: false
+            headerTitle: "",
+            headerShadowVisible: false,
+            headerStyle: { backgroundColor: "#7EC270" },
+            headerTintColor: "#fff"
           }}
         />
         <Stack.Screen
@@ -31,7 +34,7 @@ export default function App() {
           options={({ route }) => ({
             title: route.params.title,
             headerShadowVisible: false,
-            headerStyle: { backgroundColor: "#32075B" },
+            headerStyle: { backgroundColor: "#7EC270" },
             headerTitleStyle: {
               color: "#fff",
               fontSize: 24,

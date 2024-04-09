@@ -7,7 +7,7 @@ export default function Button({ title, onPress, icon }) {
         onPress={onPress}
         style={({ pressed }) => [
           {
-            backgroundColor: pressed ? "#2b4ab5" : "#2f51ca",
+            backgroundColor: pressed ? "#639c57" : "#7EC270",
           },
           styles.wrapper,
         ]}

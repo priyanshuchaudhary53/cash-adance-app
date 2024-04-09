@@ -28,7 +28,7 @@ export default function InfoPage({ route }) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#32075B"
+    backgroundColor: "#053225"
   },
   list: {
     paddingHorizontal: 25
